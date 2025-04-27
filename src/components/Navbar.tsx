@@ -38,7 +38,7 @@ const Navbar = () => {
              <img src='/steering-wheel-car-svgrepo-com.svg' className='w-20 h-20'/>
             </div>
             <div>
-            <h1 className='text-4xl'>Deride</h1>
+            <h1 className='lg:text-4xl sm:text-xl'>Deride</h1>
             <p className='text-sm'>Driving school</p>
             </div>
           </div>

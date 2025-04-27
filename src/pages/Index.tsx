@@ -26,7 +26,7 @@ const Index = () => {
         <div className="lg:px-20 px-6">
           <h1 className="text-4xl font-bold text-blue-600">Our services</h1>
           <p className="text-xl">We provide our services</p>
-          <div className="grid lg:grid-cols-4 grid-cols-2 gap-3 mt-4">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 mt-4">
             <div className="shadow-[inset_0_4px_6px_4px_rgba(255,255,255,0.4)] group px-2 flex flex-col items-center justify-center">
               <div className="h-20 w-20 rounded-full flex items-center justify-center mt-5 shadow-[inset_0_4px_6px_rgba(255,255,255,0.4)]">
                 <i className="fa-solid fa-traffic-light text-4xl group-hover:text-blue-600"></i>
@@ -124,7 +124,7 @@ const Index = () => {
             Our Trending Courses
           </h1>
           <p className="text-2xl font-semibold">Our Popular Driving Courses</p>
-          <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 mt-8">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-8">
             <div className="rounded-tl-xl shadow-[inset_0_4px_6px_4px_rgba(255,255,255,0.4)] group ">
               <div className="px-4 flex flex-row justify-between items-center mt-4 font-bold">
                 <h1>$70</h1>
@@ -271,7 +271,7 @@ const Index = () => {
             </div>
             <div className="p-8 shadow-[inset_0_4px_6px_4px_rgba(255,255,255,0.4)]">
               <h4 className="text-2xl">Asking Question Now</h4>
-              <div className="flex flex-row gap-2 mt-3">
+              <div className="flex flex-row flex-wrap gap-2 mt-3">
                 <input
                   type="text"
                   placeholder="Your name"
@@ -283,7 +283,7 @@ const Index = () => {
                   className="border-white p-1 pl-2 rounded-sm bg-transparent shadow-[inset_0_2px_4px_2px_rgba(255,255,255,0.4)]"
                 />
               </div>
-              <div className="flex flex-row gap-2 mt-3">
+              <div className="flex flex-row flex-wrap gap-2 mt-3">
                 <input
                   type="text"
                   placeholder="Phone number"
@@ -315,7 +315,7 @@ const Index = () => {
            Why Choosing Us Our School
           </h1>
           <p className="text-2xl font-semibold mt-2">Get Behind the Wheel and Take the Lead</p>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-8 px-16  ">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-4 mt-8 lg:px-16 px-8  ">
             <div className="shadow-[inset_0_4px_6px_4px_rgba(255,255,255,0.4)] p-4">
               <h1 className="text-xl font-bold text-blue-400 text-center">Online Tracking</h1>
               <p className="text-[#ccc] mt-2 px-4 mb-2">Online tracking is the process of gathering information.</p>
@@ -337,7 +337,7 @@ const Index = () => {
         </div>
 
         {/* Section 5  */}
-        <div className="shadow-[inset_0_4px_6px_4px_rgba(255,255,255,0.4)] w-1/3 mx-auto mt-16 p-4">
+        <div className="shadow-[inset_0_4px_6px_4px_rgba(255,255,255,0.4)] lg:w-1/3 md:mx-auto mt-16 lg:p-4 mx-8">
           <h1 className="text-blue-600 p-4 text-center font-bold text-xl">(+163) 6972 9901</h1>
           <h1 className="text-2xl px-4 font-bold">Book Your First Driving Lesson And Contact Us</h1>
           <div className="flex flex-row gap-4 px-4 mt-10">
